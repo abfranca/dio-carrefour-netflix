@@ -1,2 +1,2 @@
-# dio-carrefour-netflix
-Recriando a Interface do Netflix
+# Recriando a Interface do Netflix
+## Recriando a interface do Netflix utilizando HTML5, CSS3 e JavaScript. Treinando como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins JQuery.
