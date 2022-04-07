@@ -22,7 +22,6 @@ header .container {
 }
 
 header .logo {
-    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
@@ -78,4 +77,18 @@ header nav a:hover {
 
 .filme-principal .botao i {
     margin-right: 8px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-film {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
