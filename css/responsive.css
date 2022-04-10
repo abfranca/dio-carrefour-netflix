@@ -1,0 +1,47 @@
+@media screen and (max-width:700px) {
+    header {
+        height: 80px;
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        margin-right: 0px;
+    }
+
+    footer .container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer nav {
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    footer nav a {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    main {
+        margin-top: 80px;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}

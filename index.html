@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
     <title>Cloneflix</title>
@@ -14,12 +15,14 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">CLONEFLIX</h2>
+            <a href="https://netflix.com" class="net" target="_blank">
+                <h2 class="logo">CLONEFLIX</h2>
+            </a>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#filmes">Filmes</a>
+                <a href="#series">Séries</a>
+                <a href="#informacoes">Informações</a>
             </nav>
         </div>
     </header>
@@ -46,7 +49,8 @@
         </div>
     </main>
 
-    <div class="carrossel-filmes">
+    <div class="carrossel-filmes" id="filmes">
+        <h3 class="titulos">Filmes</h3>
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <img class="box-filme" src="https://www.themoviedb.org/t/p/original/qx0EDGXslJvH4qU3DCTseNUL2wo.jpg">
@@ -88,6 +92,66 @@
             </div>
         </div>
     </div>
+
+    <div class="carrossel-filmes" id="series">
+        <h3 class="titulos">Series</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/7hab4OnSLtgULjai9pHMQoo6Yap.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/7gNPKHaW3VB2UlDVxpfcTQBPk9N.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/l6ZQhEHjtOd9t6lOvVGzs5YEHcG.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/uUDn6CSkZ0cZWHbvDbsvmQ8t1kk.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/eEx20DZuY23BqrZP1x5Ckfw8ORz.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/KabTMEDtLiFrNKPrlRwWDoMpSE.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/oVh9NvvS6YKxA4qeFuJspBw8J8.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/pLOWuYnhozZnXMpnCyT0aNfBMGa.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/jROnM4gMSJlsfZpMighHuWeZt42.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filme"
+                    src="https://www.themoviedb.org/t/p/w220_and_h330_face/j28XGzAhvJNGWEHbYrzvREw7kKd.jpg">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container" id="informacoes">
+            <h2>INFORMAÇÕES</h2>
+            <nav>
+                <a href="https://www.linkedin.com/in/felipe-fran%C3%A7a-236862161" target="_blank">
+                    <img class="externo" src="img/linkedin.png">
+                </a>
+                <a href="https://github.com/abfranca" target="_blank">
+                    <img class="externo" src="img/github.png">
+                </a>
+            </nav>
+        </div>
+    </footer>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
     <script src="js/owl/jquery.min.js"></script>
